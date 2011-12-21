@@ -13,8 +13,8 @@ gem install openphoto-ruby
 
 To use the library you need to first require 'openphoto-ruby', retrieve your OAuth credentials, then instantiate an instance of the client and start making calls.
 
-require 'rubygems'
-require 'openphoto-ruby'
+	require 'rubygems'
+	require 'openphoto-ruby'
 
 	@client = Openphoto::Client.new(@site, @consumer_key, @consumer_secret, @access_token, @access_token_secret)
 	photo = @client.connect(:post, "/photo/upload.json", {"photo"=>"/tmp/photo.png", "permission"=>"1", "title"=>"test upload"})
