@@ -28,3 +28,9 @@ To use the library you need to first require 'openphoto-ruby', retrieve your OAu
 You can get your credentials by clicking on the arrow next to your email address once you're logged into your site and then clicking on settings.
 If you don't have any credentials then you can create one for yourself by going to `/v1/oauth/flow`.
 Once completed go back to the settings page and you should see the credential you just created
+
+----------------------------------------
+<a name="openphoto"></a>
+#### OpenPhoto installation and API documentation
+
+You can find more information at the main <a href="http://theopenphotoproject.org/documentation">OpenPhoto documentation page</a>.
